@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@types/n8n-workflow": "^1.5.1",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
@@ -53,7 +54,7 @@
     "prettier": "^3.3.2",
     "typescript": "^5.5.3"
   },
-  "peerDependencies": {
-    "n8n-workflow": "*"
+  "dependencies": {
+    "n8n-workflow": "^1.5.1"
   }
 }
