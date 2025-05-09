@@ -1,9 +1,12 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-beyond-bot",
   "version": "0.1.0",
-  "description": "",
+  "description": "Beyond-Bot.ai integration for n8n",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "beyond-bot",
+    "ai",
+    "langgraph"
   ],
   "license": "MIT",
   "homepage": "",
@@ -13,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/<...>/n8n-nodes-beyond-bot.git"
   },
   "engines": {
     "node": ">=18.10",
@@ -36,12 +39,10 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
+      "dist/credentials/BeyondBotApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/BeyondBot/BeyondBot.node.js"
     ]
   },
   "devDependencies": {
