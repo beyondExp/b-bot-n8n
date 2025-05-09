@@ -4,6 +4,7 @@ import type {
 	INodeType,
 	INodeTypeDescription,
 } from 'n8n-workflow';
+import { NodeConnectionType } from 'n8n-workflow';
 
 export class BeyondBot implements INodeType {
 	description: INodeTypeDescription = {
@@ -17,8 +18,8 @@ export class BeyondBot implements INodeType {
 		defaults: {
 			name: 'Beyond-Bot',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'beyondBotApi',
