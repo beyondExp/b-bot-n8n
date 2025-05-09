@@ -1,0 +1,21 @@
+{
+	"node": "n8n-nodes-base.beyondBot",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"AI",
+		"Development"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://beyond-bot.ai/docs/authentication"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://beyond-bot.ai/docs"
+			}
+		]
+	}
+}
